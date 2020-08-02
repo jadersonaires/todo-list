@@ -1,0 +1,30 @@
+$body-bg: #D8e3fa;
+$body-color: #444;
+
+$theme-colors: (
+  "primary": #2836dc,
+  "danger": #ff4136
+);
+
+.footer{
+    padding: 1rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #94b1ec;
+    border-top: .05rem solid #e5e5e5;
+    margin-top: 2.5rem;
+	
+	p{
+		margin: 0px;
+	}
+}
+
+.text-decorate-through{
+  	text-decoration: line-through;
+}
+
+.b-shadow{
+  	box-shadow: 0px 0px 5px 1px #bad3ff;
+}
+
+@import '~bootstrap/scss/bootstrap.scss';
